@@ -1,0 +1,5 @@
+*.o
+# test files
+in
+out
+mi_script.nsh
