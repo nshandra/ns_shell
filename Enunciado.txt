@@ -156,7 +156,7 @@ Trabajo opcional IV
 Mantener una variable de entorno RESULT que debe estar siempre disponible y 
 que contenga el estatus devuelto por el último comando.
 
-Además, se deben incluir los siguientes comandos  comandos built-in en la shell:
+Además, se deben incluir los siguientes comandos built-in en la shell:
  ifok, ifnot, true y  false.
 
 El comando ifok deberá ejecutar sus argumentos como un comando simple si el 
@@ -193,6 +193,7 @@ Por cada parte opcional implementada, se puede obtener 1 punto extra.
 NOTAS
 
 PIPES:
-1) arrray de pipes, cada fork cierra los pipes que no le conciernen, el proceso shell cierra todos
+1) arrray de pipes, cada fork cierra los pipes que no le conciernen, el proceso 
+shell cierra todos
 2) en cada iteracion se crea el pipe pertinente
 */
